@@ -8,6 +8,11 @@ router.get("/users" , (req , res) => {
 })
 
 
+router.get("/users/:id", (req , res) => {
+    usercontroller.getUser(req,res);
+})
+
+
 
 
 
